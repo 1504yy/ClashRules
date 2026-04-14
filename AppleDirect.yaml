@@ -1,4 +1,5 @@
 payload:
+  # ===== 原 Direct 规则 =====
   # FMI
   - USER-AGENT,*com.apple.mobileme.fmip1
   # Weather
@@ -41,6 +42,8 @@ payload:
   - DOMAIN-KEYWORD,-cn.apple.com
   - DOMAIN-SUFFIX,icloud.com.cn
   - DOMAIN-SUFFIX,apple.com.cn
+  
+  # ===== 原 CDN 规则（合并）=====
   # iOS App Store
   - DOMAIN,iosapps.itunes.apple.com
   # Mac App Store
