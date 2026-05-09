@@ -50,6 +50,7 @@ payload:
   - DOMAIN,download.developer.apple.com
   - DOMAIN,downloaddispatch.itunes.apple.com
   - DOMAIN,app-site-association.cdn-apple.com
+  - DOMAIN-SUFFIX,play-china.itunes-apple.com.akadns.net
   
   # Location（并入直连）
   - USER-AGENT,%E5%9C%B0%E5%9B%BE*
